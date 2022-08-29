@@ -32,25 +32,26 @@
       .gambar2 {
         transform: translateY(15px);
       }
-      #aboutme {
-        height: 205px;
+      .bg {
+        height: fit-content;
         background-size: cover;
         background-image: url("gambar/gambar3.jpg");
       }
       .judulabout {
         transform: translateY(15px);
-        margin: 0 auto 0;
-        width: 151px;
+        margin: 0px auto 20px;
+        padding: 10px;
+        width: fit-content;
         height: 50px;
         color: #20bcd5;
-        border: 10px dotted #20bcd5;
+        border: 10px dashed #20bcd5;
       }
       .pabout {
+        margin: 10px;
         text-align: justify;
       }
       .pabout span {
-        /* text-align: right; */
-        padding-left: 100px;
+        float: right;
       }
     </style>
   </head>
@@ -69,13 +70,70 @@
         <li>twitter</li>
       </ul> -->
     </div>
-    <div id="aboutme">
+    <div id="aboutme" class="bg">
       <h1 class="judulabout">About Me</h1>
       <p class="pabout">
         Hey! I'm Alex. Coding has changed my world. It's not just about apps. Learning to code gave me problem-solving skills and a way to communicate with others on a technical level. I can also develop websites and use my coding skills to
         get a better job. And I learned it all at SoloLearn where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!
         <span>"Declare variables, not war"</span>
       </p>
+    </div>
+    <div class="mycodingschedule bg">
+      <h1 class="judulabout">My Coding Schedule</h1>
+      <table border="1" cellspacing="0" cellpadding="8" align="center">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8-8:30</td>
+            <td style="background-color: #f36f48; color: white">Learn</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>9-10</td>
+            <td></td>
+            <td style="background-color: #f36f48; color: white">Practice</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>1-1:30</td>
+            <td></td>
+            <td></td>
+            <td style="background-color: #f36f48; color: white">Play</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3:45-5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="background-color: #f36f48; color: white">Code</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>6-6:15</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="background-color: #f36f48; color: white">Code</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </body>
 </html>
