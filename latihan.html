@@ -53,6 +53,21 @@
       .pabout span {
         float: right;
       }
+      .myskills li {
+        list-style-type: disc;
+      }
+      progress {
+        width: 70%;
+        height: 20px;
+        color: #3fb6b2;
+        background-color: #efefef;
+      }
+      progress::-webkit-progress-bar {
+        background-color: gray;
+      }
+      progress::-webkit-progress-value {
+        background-color: #000000;
+      }
     </style>
   </head>
   <body>
@@ -134,6 +149,23 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    <div class="myskills bg">
+      <h1 class="judulabout">My Skills</h1>
+      <ul class="myskills">
+        <li>
+          HTML <br />
+          <progress min="0" max="100" value="70"></progress>
+        </li>
+        <li>
+          JavaScript <br />
+          <progress min="0" max="100" value="50"></progress>
+        </li>
+        <li>
+          Python <br />
+          <progress min="0" max="100" value="30"></progress>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
