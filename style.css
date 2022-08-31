@@ -1,0 +1,62 @@
+body {
+  font-family: "Handlee", cursive;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+div {
+  text-align: center;
+}
+ul {
+  text-align: left;
+  display: inline-block;
+}
+#about {
+  background-image: url("gambar/gambar1.jpg");
+  height: 165px;
+  background-size: cover;
+}
+.nama {
+  color: white;
+  transform: translateY(-13px);
+}
+.gambar2 {
+  transform: translateY(15px);
+}
+.bg {
+  height: fit-content;
+  background-size: cover;
+  background-image: url("gambar/gambar3.jpg");
+}
+.judulabout {
+  transform: translateY(15px);
+  margin: 0px auto 20px;
+  padding: 10px;
+  width: fit-content;
+  height: 50px;
+  color: #20bcd5;
+  border: 10px dashed #20bcd5;
+}
+.pabout {
+  margin: 10px;
+  text-align: justify;
+}
+.pabout span {
+  float: right;
+}
+.myskills li {
+  list-style-type: disc;
+}
+progress {
+  width: 70%;
+  height: 20px;
+  color: #3fb6b2;
+  background-color: #efefef;
+}
+progress::-webkit-progress-bar {
+  background-color: lightgray;
+}
+progress::-webkit-progress-value {
+  background-color: #3fb6b2;
+}
