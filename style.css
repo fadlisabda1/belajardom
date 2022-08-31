@@ -60,3 +60,7 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {
   background-color: #3fb6b2;
 }
+
+frame {
+  margin: auto;
+}
