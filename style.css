@@ -29,7 +29,7 @@ ul {
   background-size: cover;
   background-image: url("gambar/gambar3.jpg");
 }
-.judulabout {
+.judul {
   transform: translateY(15px);
   margin: 0px auto 20px;
   padding: 10px;
@@ -63,4 +63,32 @@ progress::-webkit-progress-value {
 
 frame {
   margin: auto;
+}
+
+.name {
+  width: 824px;
+  height: 42px;
+  background-color: #efefef;
+  border-radius: 8px;
+}
+
+.email {
+  width: 824px;
+  height: 42px;
+  background-color: #efefef;
+  border-radius: 8px;
+}
+
+.message {
+  width: 824px;
+  height: 126px;
+  background-color: #efefef;
+  border-radius: 8px;
+}
+
+.send {
+  width: 803px;
+  height: 42px;
+  background-color: #3fb6b2;
+  border-radius: 8px;
 }

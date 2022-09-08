@@ -9,25 +9,27 @@
   </head>
   <body>
     <div>
-      <a href="#aboutme">About</a>
-      <a href="">Contact</a>
+      <a href="#myskills">My Skills</a>
+      <a href="#mymedia">My Media</a>
+      <a href="#contactme">Contact Me</a>
+      <a href="#followme">Follow Me</a>
     </div>
     <hr />
+    <div class="bg">
     <div id="about">
       <img src="gambar/gambar2.jpg" alt="" height="100" class="gambar2" />
       <h1 class="nama">Fhadly Sabda Dinov</h1>
     </div>
-    <div id="aboutme" class="bg">
-      <h1 class="judulabout">About Me</h1>
+    <div id="aboutme">
+      <h1 class="judul">About Me</h1>
       <p class="pabout">
         Hey! I'm Alex. Coding has changed my world. It's not just about apps. Learning to code gave me problem-solving skills and a way to communicate with others on a technical level. I can also develop websites and use my coding skills to
         get a better job. And I learned it all at SoloLearn where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!
         <span>"Declare variables, not war"</span>
       </p>
     </div>
-    <div class="mycodingschedule bg">
-      <h1 class="judulabout">My Coding Schedule</h1>
-      <table border="1" cellspacing="0" cellpadding="8" align="center">
+      <h1 class="judul">My Coding Schedule</h1>
+      <table border="1" cellspacing="0" cellpadding="8" align="center" id="mycodingschedule">
         <thead>
           <tr>
             <th>Day</th>
@@ -81,9 +83,8 @@
           </tr>
         </tbody>
       </table>
-    </div>
-    <div class="myskills bg">
-      <h1 class="judulabout">My Skills</h1>
+    <div id="myskills">
+      <h1 class="judul">My Skills</h1>
       <ul class="myskills">
         <li>
           HTML <br />
@@ -99,9 +100,29 @@
         </li>
       </ul>
     </div>
-    <div class="mymedia bg">
-      <h1 class="judulabout">My Media</h1>
+    <div id="mymedia">
+      <h1 class="judul">My Media</h1>
       <iframe src="https://www.youtube.com/embed/Q6_5InVJZ88" height="150" width="300" allowfullscreen frameborder="0"></iframe>
   </div>
+  <div id="contactme">
+    <h1 class="judul">Contact Me</h1>
+    <img src="gambar/gambar4.png">
+    <form action="">
+      <input type="text" placeholder="Name" class="name">
+      <br>
+      <input type="email" placeholder="Email" class="email">
+      <br>
+      <textarea class="message" placeholder="Message"></textarea>
+      <br>
+      <button type="submit" class="send">SEND</button>
+    </form>
+  </div>
+  <div id="followme">
+    <h1 class="judul">Follow Me</h1>
+    <a href="#"><img src="gambar/sololearn.png"></a>
+    <a href="#"><img src="gambar/facebook.png"></a>
+    <a href="#"><img src="gambar/twitter.png"></a>
+  </div>
+</div>
   </body>
 </html>
