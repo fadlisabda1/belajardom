@@ -91,4 +91,5 @@ frame {
   height: 42px;
   background-color: #3fb6b2;
   border-radius: 8px;
+  cursor: pointer;
 }
